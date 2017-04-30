@@ -6,6 +6,7 @@ Putpose: Use twitter api via TwitterSearch to access a given user's tweets
 """
 
 from TwitterSearch import *
+#the following 3 lines is how we get aroudn the 'ascii' codec issue some have been seeing (could cause issues in the future)
 import sys
 reload(sys)  
 sys.setdefaultencoding('utf8')
